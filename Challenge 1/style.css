@@ -1,0 +1,47 @@
+body {
+    background: lightblue url("./img/drum.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.d-container {
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.item {
+    border: 3px solid rgb(184, 13, 112);
+    margin: 15px;
+    margin-top: 7%;
+    padding: 20px;
+    background-color:rgba(226, 195, 17, 0.637);
+    width: 5%;
+    text-align: center;
+}
+
+.key {
+    font-family: 'Staatliches', cursive;
+    font-size: 2.5rem;
+    color:  rgb(184, 13, 112);
+}
+
+.header {
+    font-family: 'Staatliches', cursive;
+    font-size: 3rem;
+    color:  rgb(184, 13, 112);
+    text-align: center;
+}
+
+.press {
+    border: 2px solid rgb(184, 13, 112);
+    margin: 15px;
+    margin-top: 7%;
+    padding: 20px;
+    background-color:rgb(226, 195, 17);
+    width: 6%;
+    text-align: center;
+    transition: width 0.2s;
+    transition: border 0.3s;
+}
