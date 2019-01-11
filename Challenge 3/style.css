@@ -1,0 +1,20 @@
+body {
+    background-color:gray;
+}
+
+:root {
+    --color: #d6b109;
+    --blur: 10px;
+    --spacing: 30px;
+}
+
+.image {
+    background-color: var(--color);
+    padding: var(--spacing);
+    margin:50px;
+    justify-content: center;
+}
+
+.landscape {
+    filter: blur(var(--blur));
+}
